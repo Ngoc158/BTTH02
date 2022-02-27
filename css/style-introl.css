@@ -1,0 +1,183 @@
+.content{
+    width: 1200px;
+    margin: auto;
+}
+
+.content1{
+    display: flex;
+    width: 100%;
+}
+
+.content2{
+    width: 75%;
+    padding-right: 30px;
+}
+
+.content2 h1{
+    font-size: 22px;
+    text-align: center;
+}
+
+.content2 h2{
+    font-size: 20px;
+    color: #0B249E;
+}
+
+.content2 p,
+.content2__widget li{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.content2 span{
+    font-weight: 700;
+}
+
+.content2__widget li{
+    margin: 10px 0;
+}
+
+.content3{
+    width: 25%;
+    padding-left: 80px;
+}
+
+.content3__elementor,
+.img__QTM{
+    margin-bottom: 40px;
+}
+
+.content3__elementor img{
+    width: 100%;
+}
+
+.widget-title{
+    border-left: 4px solid #0000b5;
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.content3__sidebar input,
+.content3__sidebar select{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 10px 0;
+}
+
+::placeholder,
+select{
+    font-size: 15px;
+    color: #000;
+}
+
+.button{
+    padding: 14px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: #edb017;
+    margin: 40px 0;
+    cursor: pointer;
+    left: 2px;
+}
+
+.button:hover{
+    color: #fff;
+    background-color: #008FCA;
+}
+
+/* footer */
+.footer {
+    height: 490px;
+    width: 100%;
+    background-color: #2f319e;
+    margin-top: 100px;
+}
+
+.footer-wrap {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    padding: 82px;
+}
+
+.course {
+    width: 33.3333%;
+    height: 304px;
+}
+
+.ul {
+    list-style: disc;
+	font-size: small !important;
+}
+
+.li {
+    font-size: 20px;
+    line-height: 40px;
+    color: #fff;
+    padding: 4px 0;
+}
+
+.upper-text {
+    font-size: 19px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.contact {
+    width: 33.3333%;
+    height: 304px;
+}
+
+.register {
+    width: 33.3333%;
+    height: 304px;
+}
+
+.register button {
+    margin-left: 96px;
+    background-color: #edb017;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid;
+    line-height: 36px;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    width:  72%;
+    cursor: pointer;
+}
+
+.register button:hover {
+    background-color: blue;
+}
+
+.partner {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+
+.partner-text {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.partner-logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px
+    ;
+}
+
+.partner-logo img {
+    width: 117px;
+    height: 67px;
+}
